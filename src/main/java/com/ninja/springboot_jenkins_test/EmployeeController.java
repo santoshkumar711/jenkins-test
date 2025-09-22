@@ -21,6 +21,12 @@ public class EmployeeController {
 	{
 		return "this is jenkins test ";
 	}
+	@RequestMapping("/test1")
+	public String test1()
+	{
+		return "this is jenkins test1 ";
+	}
+	
 	@RequestMapping("/save")
 	public String save(@RequestBody Employee employee)
 	{
