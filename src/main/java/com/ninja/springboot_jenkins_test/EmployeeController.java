@@ -24,7 +24,7 @@ public class EmployeeController {
 	@RequestMapping("/test1")
 	public String test1()
 	{
-		return "this is jenkins test3 ";
+		return "this is jenkins test4 ";
 	}
 	
 	@RequestMapping("/save")
