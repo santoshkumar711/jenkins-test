@@ -19,7 +19,7 @@ public class EmployeeController {
 	@RequestMapping("/test")
 	public String test()
 	{
-		return "this is jenkins test ";
+		return "this is jenkins autodeploy test";
 	}
 	@RequestMapping("/test1")
 	public String test1()
